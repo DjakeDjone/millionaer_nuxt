@@ -4,7 +4,8 @@
 First download the app from src-tauri/target/release/msi/millionaer_0.1.0_x64_en-US.msi
 Then install it on your computer.
 
-# Nuxt 3 Minimal Starter
+
+# Nuxt 3 Minimal Starter (for the web-application)
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
