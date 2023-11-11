@@ -1,3 +1,9 @@
+
+# Wer wird Millionär
+## Install the tauri app
+First download the app from src-tauri/target/release/msi/millionaer_0.1.0_x64_en-US.msi
+Then install it on your computer.
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
@@ -43,33 +49,22 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
+# npm (recommended)
+npm npx nuxi generate
 
 # pnpm
-pnpm run build
+pnpm npx nuxi generate
 
 # yarn
-yarn build
-
-# bun
-bun run build
+yarn npx nuxi generate
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
+# 
+npx serve .output/public 
 
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
