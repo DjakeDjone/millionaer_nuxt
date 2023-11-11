@@ -70,8 +70,8 @@ npx serve .output/public
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
 ## Add a question
->In **app.vue** fügt man an die Liste question_container ein Question-Objekt hinzu.
->Die App muss neu gebildet werden:
+>Add your Question to the Array 'questions_container' in **app.vue**.  
+>Then rebuild the app:
 >```bash
 ># tauri app
 >cargo tauri build
