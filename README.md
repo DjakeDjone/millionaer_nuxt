@@ -67,5 +67,13 @@ Locally preview production build:
 npx serve .output/public 
 
 ```
-
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Add a question
+>In **app.vue** fügt man an die Liste question_container ein Question-Objekt hinzu.
+>Die App muss neu gebildet werden:
+>```bash
+># tauri app
+>cargo tauri build
+># die Installationsdatei ist in /src-tauri/target/release/bundle/msi/
+>```
