@@ -71,3 +71,12 @@ npx serve .output/public
 
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Add a question
+>Add your Question to the Array 'questions_container' in **app.vue**.  
+>Then rebuild the app:
+>```bash
+># tauri app
+>cargo tauri build
+># die Installationsdatei ist in /src-tauri/target/release/bundle/msi/
+>```
