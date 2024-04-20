@@ -11,126 +11,390 @@ export type Question = {
 
 const questions_container: Question[] = [
   {
-    question: 'Was ist die Hauptstadt von Frankreich?',
-    answers: ['London', 'Rom', 'Paris', 'Madrid'],
-    correctAnswer: 2,
-    difficulty: 0,
+    "question": "Was ist das Minimalprinzip in der Wirtschaft?",
+    "answers": [
+      "Mit bestimmten Mitteln ein möglichst hohes Ziel erreichen.",
+      "Die Produktion von Gütern mit unbegrenzten Ressourcen.",
+      "Ein bestimmtes Ziel mit so möglichst geringem Mitteleinsatz erreichen."
+    ],
+    "correctAnswer": 2,
+    "difficulty": 5
   },
   {
-    question: 'Wer entdeckte im Jahr 1492 Amerika?',
-    answers: ['Christoph Columbus', 'Napoleon Bonaparte', 'Ferdinand Magellan', 'Elon Musk'],
-    correctAnswer: 0,
-    difficulty: 1,
+    "question": "Was charakterisiert Grund- und Existenzbedürfnisse?",
+    "answers": [
+      "Die Abdeckung dieser Bedürfnisse erhöht den Lebensstandard.",
+      "Die Abdeckung dieser Bedürfnisse ist lebensnotwendig.",
+      "Diese Bedürfnisse sind Luxusbedürfnisse."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 4
   },
   {
-    question: 'Welche Antwortmöglichkeit ist kein Kontinent?',
-    answers: ['Europa', 'Asien', 'Arktis', 'Australien'],
-    correctAnswer: 2,
-    difficulty: 2,
+    "question": "Was umfasst die Volkswirtschaftliche Gesamtrechnung (VGR)?",
+    "answers": [
+      "Die Berechnung des Brutto Inlands Produkts (BIP).",
+      "Die Analyse des Verhaltens von Unternehmen.",
+      "Die Untersuchung und Darstellung des Wirtschaftsgeschehens einer Volkswirtschaft für eine abgelaufene Periode."
+    ],
+    "correctAnswer": 0,
+    "difficulty": 7
   },
   {
-    question: 'Wann begann der 2. Weltkrieg?',
-    answers: ['1995', '1845', '1914', '1939'],
-    correctAnswer: 3,
-    difficulty: 3,
+    "question": "Was bedeutet das 1. Gossen'sche Gesetz?",
+    "answers": [
+      "Der Nutzen eines Gutes nimmt mit zunehmender Bedürfnisbefriedigung ab.",
+      "Je größer der Grenznutzen eines Produktes ist, desto mehr ist ein Konsument bereit zu zahlen.",
+      "Der Nutzen steigt, wenn mehr von einem Gut konsumiert wird."
+    ],
+    "correctAnswer": 0,
+    "difficulty": 6
   },
   {
-    question: 'Wie heißt der höchste Berg Österreichs?',
-    answers: ['Schneeberg', 'Großglockner', 'Mount Everest', 'Mont Blanc'],
-    correctAnswer: 1,
-    difficulty: 4,
+    "question": "Was sind Wirtschaftsgüter?",
+    "answers": [
+      "Güter, die einen Preis haben, müssen produziert und bezahlt werden.",
+      "Güter, die scheinbar unbegrenzt vorhanden sind.",
+      "Güter, die durch den Staat reguliert werden."
+    ],
+    "correctAnswer": 0,
+    "difficulty": 5
   },
   {
-    question: 'Wer übersetzte in der Wartburg die Bibel ins Deutsche?',
-    answers: ['Martin Luther King', 'Johannes Kepler', 'Johann Wolfgang von Goethe', 'Martin Luther'],
-    correctAnswer: 3,
-    difficulty: 5,
+    "question": "Was ist der Zweck von Banken im Wirtschaftskreislauf?",
+    "answers": [
+      "Geldanlagen entgegennehmen und Kredite vergeben.",
+      "Produktion von Gütern und Dienstleistungen.",
+      "Den Gleichgewichtspreis auf dem Markt festlegen."
+    ],
+    "correctAnswer": 0,
+    "difficulty": 6
   },
   {
-    question: 'Welches Nachbarland ist nicht teil der EU?',
-    answers: ['Schweiz', 'Ungarn', 'Italien', 'Tschechische Rupublik'],
-    correctAnswer: 0,
-    difficulty: 6,
+    "question": "Was sind freie Güter?",
+    "answers": [
+      "Güter, die durch Kaufkraft befriedigt werden können.",
+      "Güter, die scheinbar unbegrenzt vorhanden sind.",
+      "Güter, die einen Preis haben und produziert werden müssen."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 4
   },
   {
-    question: 'Welche Adelsfamilie regierte fast 650 Jahre Österreich?',
-    answers: ['Habsburger', 'Babenberger', 'die Gallier', 'Wittelsbacher'],
-    correctAnswer: 0,
-    difficulty: 7,
+    "question": "Was umfasst die Mikroökonomie?",
+    "answers": [
+      "Die Untersuchung gesamtwirtschaftlicher Phänomene.",
+      "Die Analyse des Verhaltens von einzelnen Wirtschaftsteilnehmern.",
+      "Die Produktion von Gütern und Dienstleistungen."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 5
   },
   {
-    question: 'Über welches Land in Afrika erstreckt sich die Sahara NICHT?',
-    answers: ['Ägypten', 'Algerien', 'Marokko', 'Südafrika'],
-    correctAnswer: 3,
-    difficulty: 8,
+    "question": "Was beschreibt die Marktform?",
+    "answers": [
+      "Die Anzahl der Anbieter und Nachfrager auf dem Markt.",
+      "Den Preiselastizität der Nachfrage.",
+      "Die Höhe des Brutto Inlands Produkts (BIP)."
+    ],
+    "correctAnswer": 0,
+    "difficulty": 6
   },
   {
-    question: 'Wer ist bekannt für den Ausspruch Österreich ist frei?',
-    answers: ['Alexander Van der Bellen', 'Kaiser Fanz Joseph', 'Karl Renner', 'Leopold Figl'],
-    correctAnswer: 3,
-    difficulty: 9,
+    "question": "Was sind Kultur- und Sozialbedürfnisse?",
+    "answers": [
+      "Die Abdeckung dieser Bedürfnisse ist lebensnotwendig.",
+      "Die Abdeckung dieser Bedürfnisse erhöht den Lebensstandard.",
+      "Diese Bedürfnisse sind Luxusbedürfnisse."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 4
   },
   {
-    question: 'Wer war der letzte Kaiser von Österreich',
-    answers: ['Kaiser Willhelm II.', 'Kaiser Karl I', 'Kaiser Robert Palfrader', 'Kaiser Ferdinand III.'],
-    correctAnswer: 1,
-    difficulty: 9,
+    "question": "Was versteht man unter dem Maximalprinzip?",
+    "answers": [
+      "Mit bestimmten Mitteln ein möglichst hohes Ziel erreichen.",
+      "Ein bestimmtes Ziel mit so möglichst geringem Mitteleinsatz erreichen.",
+      "Die Produktion von Gütern mit unbegrenzten Ressourcen."
+    ],
+    "correctAnswer": 0,
+    "difficulty": 7
   },
   {
-    question: 'Als was war Ludwig der XIV. bekannt?',
-    answers: ['Der Sonnenkönig', 'Der Mondkönig', 'Der Sternenkönig', 'Der Planetenkönig'],
-    correctAnswer: 0,
-    difficulty: 5,
+    "question": "Was sind öffentliche Unternehmen?",
+    "answers": [
+      "Unternehmen, die sich im Besitz von Privatpersonen befinden.",
+      "Unternehmen, die staatlich sind (z.B. ÖBB, ORF).",
+      "Unternehmen, die gemeinnützige Dienstleistungen anbieten."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 5
   },
   {
-    question: 'Wie hieß die unterste Schicht im Mittelalter?',
-    answers: ['Klerus', 'Adel', 'Leibeigene', 'Bürger'],
-    correctAnswer: 2,
-    difficulty: 3,
+    "question": "Was ist der Staat im Wirtschaftskreislauf?",
+    "answers": [
+      "Ein Wirtschaftsteilnehmer, der Geldanlagen entgegennimmt.",
+      "Ein Wirtschaftsteilnehmer, der mit Gesetzen regulierend eingreift.",
+      "Ein Unternehmen, das Sachgüter produziert."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 6
   },
   {
-    question: 'Wofür steht die Abkürzung BIP?',
-    answers: ['Bruttoinlandsprodukt', 'Bruttosozialprodukt', 'BrotIndexierungsProblem', 'BerlinerInnenProdukt'],
-    correctAnswer: 0,
-    difficulty: 4,
+    "question": "Was ist das Sozialprodukt in der Volkswirtschaftlichen Gesamtrechnung?",
+    "answers": [
+      "Die Untersuchung und Darstellung des Wirtschaftsgeschehens einer Volkswirtschaft für eine abgelaufene Periode.",
+      "Der Gesamtwert aller Sachgüter und Dienstleistungen in einem bestimmten Zeitabschnitt.",
+      "Die Produktion von Gütern und Dienstleistungen durch private Haushalte."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 7
   },
   {
-    question: 'Wie heißt der griechische Gott des Krieges?',
-    answers: ['Zeus', 'Ares', 'Poseidon', 'Dwaine Johnson'],
-    correctAnswer: 1,
-    difficulty: 2,
+    "question": "Was umfasst die Makroökonomie?",
+    "answers": [
+      "Die Analyse des Verhaltens von Unternehmen.",
+      "Die Untersuchung gesamtwirtschaftlicher Phänomene.",
+      "Die Produktion von Gütern und Dienstleistungen."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 5
   },
   {
-    question: 'Welches Land ist flächenmäßig das größte der Welt?',
-    answers: ['Russland', 'China', 'USA', 'Österreich'],
-    correctAnswer: 0,
-    difficulty: 1,
+    "question": "Was ist der Nutzen in der Marktlehre?",
+    "answers": [
+      "Das Ausmaß der individuellen Bedürfnisbefriedigung.",
+      "Die Menge an Gütern, die bestimmte Wirtschaftsteilnehmer kaufen wollen.",
+      "Die Veränderung des Gesamtnutzens durch eine weitere konsumierte Einheit eines Gutes."
+    ],
+    "correctAnswer": 0,
+    "difficulty": 6
   },
   {
-    question: 'Was ist das größte Bundesland von Österreich',
-    answers: ['Niederösterreich', 'Oberösterreich', 'Steiermark', 'Wien'],
-    correctAnswer: 0,
-    difficulty: 0,
+    "question": "Was sind private Haushalte?",
+    "answers": [
+      "Gemeinschaften, die keine Bedürfnisse haben.",
+      "Wirtschaftsteilnehmer, die Geld durch Arbeit verdienen.",
+      "Unternehmen, die Sachgüter produzieren."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 5
   },
   {
-    question: 'Was ist der in Österreich verwendete Kalender?',
-    answers: ['Julianischer Kalender', 'Österreichischer Kalender', 'Gallischer Kalender', 'Gregorianischer Kalender'],
-    correctAnswer: 3,
-    difficulty: 8,
+    "question": "Was kritisiert man am BIP/BNE in der Volkswirtschaftlichen Gesamtrechnung?",
+    "answers": [
+      "Erfasst nicht: Schwarzarbeit, ehrenamtliche Arbeit, Kriminalität.",
+      "Die Zusammensetzung spielt keine Rolle.",
+      "Die Nachhaltigkeit der Produktion von Gütern."
+    ],
+    "correctAnswer": 0,
+    "difficulty": 7
   },
   {
-    question: 'Wie viele Staate hat die EU?',
-    answers: ['27', '28', '29', '30'],
-    correctAnswer: 0,
-    difficulty: 5,
+    "question": "Was ist der Gleichgewichtspreis auf einem Markt?",
+    "answers": [
+      "Ein Zustand, in dem es keine Nachfrage nach Gütern gibt.",
+      "Der Preis, bei dem die nachgefragte Menge mit der angebotenen Menge übereinstimmt.",
+      "Ein Preis, der vom Staat festgelegt wird."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 6
   },
   {
-    question: 'Wofür steht "GGP"',
-    answers: ['Geografie, Geschichte und Politische Bildung', 'Gerhard, Gusl und Peter', 'Groß, Größer, Porsche', 'Geschichte, Geografie und Politik'],
-    correctAnswer: 0,
-    difficulty: 4,
+    "question": "Was ist die Einkommenselastizität?",
+    "answers": [
+      "Die Veränderung des Grenznutzens bei steigendem Einkommen.",
+      "Die Veränderung des Konsumverhaltens bei Veränderung des Einkommens.",
+      "Die Höhe des Brutto Inlands Produkts (BIP)."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 6
   },
+  {
+    "question": "Was ist der Zusatznutzen in der Marktlehre?",
+    "answers": [
+      "Die Veränderung des Gesamtnutzens durch eine weitere konsumierte Einheit eines Gutes.",
+      "Die Menge an Gütern, die bestimmte Wirtschaftsteilnehmer verkaufen wollen.",
+      "Die Veränderung des Einkommens bei steigendem Konsum."
+    ],
+    "correctAnswer": 0,
+    "difficulty": 5
+  },
+  {
+    "question": "Was sind Marktungleichgewichte?",
+    "answers": [
+      "Ein Zustand, in dem es keine Nachfrage nach Gütern gibt.",
+      "Ein Zustand, in dem die nachgefragte Menge größer ist als die angebotene Menge.",
+      "Der Preis, bei dem die nachgefragte Menge mit der angebotenen Menge übereinstimmt."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 6
+  },
+  {
+    "question": "Was sind Sozial- und Kulturbedürfnisse?",
+    "answers": [
+      "Bedürfnisse, die lebensnotwendig sind.",
+      "Bedürfnisse, die den Lebensstandard erhöhen.",
+      "Bedürfnisse, die keinen Einfluss auf das Lebensgefühl haben."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 4
+  },
+  {
+    "question": "Was charakterisiert den Polypol-Markt?",
+    "answers": [
+      "Eine geringe Anzahl von Marktteilnehmern und eingeschränkte Konkurrenz.",
+      "Viele Marktteilnehmer, freie Konkurrenz, freier Marktzugang, Informationsgleichstand.",
+      "Einer allein hat alle Marktanteile."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 6
+  },
+  {
+    "question": "Welche Gefahr besteht im Oligopol-Markt?",
+    "answers": [
+      "Gefahr von niedrigen Preisen.",
+      "Gefahr von Absprachen und Kartellen.",
+      "Gefahr von unkontrollierter Konkurrenz."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 7
+  },
+  {
+    "question": "Was kennzeichnet den Monopol-Markt?",
+    "answers": [
+      "Freier Marktzugang für alle Anbieter.",
+      "Viele Anbieter und freie Konkurrenz.",
+      "Einer allein hat alle Marktanteile."
+    ],
+    "correctAnswer": 2,
+    "difficulty": 5
+  },
+  {
+    "question": "Was sind Beispiele für Kartelle?",
+    "answers": [
+      "Preiskartelle im Supermarkt.",
+      "Mengenkartelle in der OPEC für Erdöl.",
+      "Regionale Kartelle für Strom und Rauchfangkehrer."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 6
+  },
+  {
+    "question": "Was definiert einen vollkommenen Markt?",
+    "answers": [
+      "Wenn die Güter nach Art der Beschaffung ident sind.",
+      "Wenn es keine Präferenzen bezüglich bestimmter Käufer und Verkäufer gibt.",
+      "Wenn es keine räumliche oder zeitliche Differenzierung zwischen Angebot und Nachfrage gibt."
+    ],
+    "correctAnswer": 2,
+    "difficulty": 5
+  },
+  {
+    "question": "Wann spricht man von einem unvollkommenen Markt?",
+    "answers": [
+      "Wenn die Güter nach Art der Beschaffung ident sind.",
+      "Wenn nicht alle oder keine der vollkommenen Markt-Kriterien erfüllt sind.",
+      "Wenn es keine räumliche oder zeitliche Differenzierung zwischen Angebot und Nachfrage gibt."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 6
+  },
+  {
+    "question": "Was sind Produktionsfaktoren in der Volkswirtschaft?",
+    "answers": [
+      "Nur die eingesetzten Maschinen und Werkzeuge.",
+      "Die eingesetzten Mittel für die Produktion von Sachgütern oder Dienstleistungen.",
+      "Nur die finanziellen Ressourcen eines Unternehmens."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 5
+  },
+  {
+    "question": "Was sind Standortfaktoren in der Betriebswirtschaft?",
+    "answers": [
+      "Nur betriebswirtschaftliche Faktoren ohne räumlichen Bezug.",
+      "Betriebswirtschaftliche Faktoren an einem bestimmten Ort, die die Wirtschaftlichkeit eines Unternehmens beschreiben.",
+      "Nur die harten Standartfaktoren."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 6
+  },
+  {
+    "question": "Was sind harte Standortfaktoren?",
+    "answers": [
+      "Faktoren mit direktem Einfluss auf den Gewinn, wie Qualität der Mitarbeiter und Produktionskosten.",
+      "Faktoren mit indirektem Einfluss auf den Gewinn, wie Werbung und Trends.",
+      "Faktoren, die keine Auswirkungen auf den Gewinn haben."
+    ],
+    "correctAnswer": 0,
+    "difficulty": 7
+  },
+  {
+    "question": "Was sind weiche Standortfaktoren?",
+    "answers": [
+      "Faktoren mit direktem Einfluss auf den Gewinn, wie Qualität der Mitarbeiter und Produktionskosten.",
+      "Faktoren mit indirektem Einfluss auf den Gewinn, wie Werbung und Trends.",
+      "Faktoren, die keine Auswirkungen auf den Gewinn haben."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 6
+  },
+  {
+    "question": "Welche Argumente sprechen für den Wirtschaftsstandort Österreich?",
+    "answers": [
+      "Hohe Lohn- und Lohnnebenkosten.",
+      "Zentrale Lage, gute Infrastruktur, gutes Sozialsystem.",
+      "Binnenstaat und niedrige Steuern."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 6
+  },
+  {
+    "question": "Welche Argumente sprechen gegen den Wirtschaftsstandort Österreich?",
+    "answers": [
+      "Hohe Lohn- und Lohnnebenkosten.",
+      "Zentrale Lage, gute Infrastruktur, gutes Sozialsystem.",
+      "Binnenstaat und niedrige Steuern."
+    ],
+    "correctAnswer": 0,
+    "difficulty": 6
+  },
+  {
+    "question": "Was sind Produktions- und Standortfaktoren?",
+    "answers": [
+      "Nur betriebswirtschaftliche Faktoren ohne räumlichen Bezug.",
+      "Die eingesetzten Mittel für die Produktion von Sachgütern oder Dienstleistungen.",
+      "Nur die harten Standartfaktoren."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 5
+  },
+  {
+    "question": "Was versteht man unter einem Mengenkartell?",
+    "answers": [
+      "Ein Kartell, das Mengenrabatte für Konsumenten anbietet.",
+      "Ein Kartell, das den Markt durch hohe Preise kontrolliert.",
+      "Ein Kartell, das die Menge der produzierten Güter beschränkt, um Preise zu kontrollieren."
+    ],
+    "correctAnswer": 2,
+    "difficulty": 7
+  },
+  {
+    "question": "Was sind Beispiele für Mengenkartelle?",
+    "answers": [
+      "Bierkartell und Supermarktketten.",
+      "OPEC für Erdöl und Bierkartell.",
+      "OPEC für Erdöl und Bierkartell."
+    ],
+    "correctAnswer": 1,
+    "difficulty": 6
+  }
 ]
+
+
+
+
 
 const randomQuestions = () => {
   // return questions_container.slice(2, 12);
